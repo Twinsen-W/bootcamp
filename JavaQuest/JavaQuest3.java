@@ -1,7 +1,7 @@
 package JavaQuest;
 public class JavaQuest3 {
   public static void main(String[] args) {
-    int a = 0;
+    int a = -3;
     if (a == 9) {
       System.out.println("a is equals to 9");
     } else if (a < 9 || a == 0) {
@@ -9,7 +9,7 @@ public class JavaQuest3 {
     // how about a > 9?
     } else if  (a > 9) {
       System.out.println("a > 9");
-     } else {
+     } else if (a < 0) {
       System.out.println("a < 0");
      }
 
